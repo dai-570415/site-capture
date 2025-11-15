@@ -48,7 +48,7 @@ function App() {
 
   return (
     <div style={{ padding: 20, maxWidth: 800, margin: "0 auto", fontFamily: "Arial, sans-serif" }}>
-      <h1>Site Capturer (local)</h1>
+      <h1>Site Capture</h1>
       <form onSubmit={handleSubmit}>
         <div style={{ marginBottom: 8 }}>
           <label>Start URL: </label>
@@ -58,7 +58,7 @@ function App() {
           <label>Max pages: </label>
           <input type="number" value={maxPages} min={1} onChange={e => setMaxPages(Number(e.target.value))} />
         </div>
-        <div style={{ marginBottom: 8 }}>
+        <div style={{ display: "none", marginBottom: 8 }}>
           <label>Concurrency: </label>
           <input type="number" value={concurrency} min={1} onChange={e => setConcurrency(Number(e.target.value))} />
         </div>
@@ -67,8 +67,8 @@ function App() {
 
       <section style={{ marginTop: 20 }}>
         <h2>Log</h2>
-        <div style={{ maxHeight: 300, overflow: "auto", background: "#f5f5f5", padding: 10 }}>
-          {log.map((l, i) => <div key={i} style={{ fontFamily: "monospace", fontSize: 12 }}>{l}</div>)}
+        <div style={{ maxHeight: 300, overflow: "auto", background: "#333", padding: 10 }}>
+          {log.map((l, i) => <div key={i} style={{ fontFamily: "monospace", fontSize: 12, color: "#fff" }}>{l}</div>)}
         </div>
       </section>
     </div>
