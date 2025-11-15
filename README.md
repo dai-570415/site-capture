@@ -1,4 +1,4 @@
-# Site Capturer
+# Site Capture
 
 ブラウザ上で URL を入力すると、下層ページも含めてスクリーンショットを取得し ZIP にまとめてダウンロードできるアプリです。
 
@@ -22,8 +22,8 @@
 ### 1. GitHub からクローン
 
 ```bash
-git clone https://github.com/dai-570415/site-capturer.git
-cd site-capturer
+git clone https://github.com/dai-570415/site-capture.git
+cd site-capture
 ```
 
 ---
