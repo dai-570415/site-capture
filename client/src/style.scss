@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+// 設定スタイルシート
+@use "sass/settings";
+@use "sass/reset";
+@use "sass/fonts";
+
+// ベース
+@use "sass/base";
+
+// レイアウト
+// ヘッダー
+@use "sass/layout/header/header";
+// フッター
+@use "sass/layout/footer/footer";
+
+@use "sass/parts/siteCapture";

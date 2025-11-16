@@ -1,0 +1,56 @@
+@use "./utils/utils" as *;
+
+*,
+h1 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; // フォントサイズrem用設定
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 500;
+    overflow-x: hidden;
+    color: $white-color;
+    background: $base-color;
+}
+
+a {
+    text-decoration: none;
+    color: $base-color;
+    transition: .5s;
+}
+
+ul {
+    li {
+        list-style: none;
+    }
+}
+
+img {
+    vertical-align: bottom;
+}
+
+// br指定
+.pc {
+    display: block
+}
+
+.sp {
+    display: none
+}
+
+@include mq() {
+    .pc {
+        display: none
+    }
+
+    .sp {
+        display: block
+    }
+}

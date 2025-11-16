@@ -1,0 +1,16 @@
+// 使い方
+// PCベースで書く
+// @include mq() {} // spの場合はこれをくくって書く
+// イレギュラー（どうしてもレイアウト崩れが発生する場合）はその都度、個別のファイルに通常の書き方で対応する
+
+$breakpoint: (
+    // 原則ベースのブレイクポイントは増やさない・変更しない
+    sp: 'screen and (max-width: 767px)',
+    pc: 'screen and (min-width: 768px)',
+);
+
+@mixin mq($bp: sp) {
+    @media #{map-get($breakpoint, $bp)} {
+        @content;
+    }
+}

@@ -1,0 +1,274 @@
+/* font */
+/* font-family: 'Noto Sans JP', sans-serif; */
+/* font-family: 'Noto Serif JP', serif; */
+/* font-family: 'Josefin Sans', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'EB Garamond', serif; */
+/* font-family: "Zen Kaku Gothic New", sans-serif; */
+/* font-family: "Barlow Condensed", sans-serif; */
+
+// NotoSansJP
+@font-face {
+    src: url("./fonts/NotoSansJP/NotoSansJP.ttf") format("truetype");
+    font-family: "Noto Sans JP";
+    font-style: normal;
+    font-display: swap;
+}
+
+// JosefinSans
+@font-face {
+    src: url("./fonts/JosefinSans/JosefinSans.ttf") format("truetype");
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-display: swap;
+}
+
+// EBGaramond
+@font-face {
+    src: url("./fonts/EBGaramond/EBGaramond.ttf") format("truetype");
+    font-family: "EB Garamond";
+    font-style: normal;
+    font-display: swap;
+}
+
+// Poppins
+@font-face {
+    src: url("./fonts/Poppins/Poppins-Thin.ttf") format("truetype");
+    font-family: "Poppins";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 100;
+}
+
+@font-face {
+    src: url("./fonts/Poppins/Poppins-ExtraLight.ttf") format("truetype");
+    font-family: "Poppins";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 200;
+}
+
+@font-face {
+    src: url("./fonts/Poppins/Poppins-Light.ttf") format("truetype");
+    font-family: "Poppins";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300;
+}
+
+@font-face {
+    src: url("./fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+    font-family: "Poppins";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+}
+
+@font-face {
+    src: url("./fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+    font-family: "Poppins";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+}
+
+@font-face {
+    src: url("./fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+    font-family: "Poppins";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 600;
+}
+
+@font-face {
+    src: url("./fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+    font-family: "Poppins";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+}
+
+@font-face {
+    src: url("./fonts/Poppins/Poppins-ExtraBold.ttf") format("truetype");
+    font-family: "Poppins";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 800;
+}
+
+@font-face {
+    src: url("./fonts/Poppins/Poppins-Black.ttf") format("truetype");
+    font-family: "Poppins";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 900;
+}
+
+// NotoSerifJP
+@font-face {
+    src: url("./fonts/NotoSerifJP/NotoSerifJP-ExtraLight.otf") format("opentype");
+    font-family: "Noto Serif JP";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 200;
+}
+
+@font-face {
+    src: url("./fonts/NotoSerifJP/NotoSerifJP-Light.otf") format("opentype");
+    font-family: "Noto Serif JP";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300;
+}
+
+@font-face {
+    src: url("./fonts/NotoSerifJP/NotoSerifJP-Regular.otf") format("opentype");
+    font-family: "Noto Serif JP";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+}
+
+@font-face {
+    src: url("./fonts/NotoSerifJP/NotoSerifJP-Bold.otf") format("opentype");
+    font-family: "Noto Serif JP";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+}
+
+@font-face {
+    src: url("./fonts/NotoSerifJP/NotoSerifJP-SemiBold.otf") format("opentype");
+    font-family: "Noto Serif JP";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 600;
+}
+
+@font-face {
+    src: url("./fonts/NotoSerifJP/NotoSerifJP-Medium.otf") format("opentype");
+    font-family: "Noto Serif JP";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+}
+
+@font-face {
+    src: url("./fonts/NotoSerifJP/NotoSerifJP-Black.otf") format("opentype");
+    font-family: "Noto Serif JP";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 900;
+}
+
+@font-face {
+    src: url("./fonts/Zen_Kaku_Gothic_New/ZenKakuGothicNew-Light.ttf") format("truetype");
+    font-family: "Zen Kaku Gothic New";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300;
+}
+
+@font-face {
+    src: url("./fonts/Zen_Kaku_Gothic_New/ZenKakuGothicNew-Regular.ttf") format("truetype");
+    font-family: "Zen Kaku Gothic New";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+}
+
+@font-face {
+    src: url("./fonts/Zen_Kaku_Gothic_New/ZenKakuGothicNew-Medium.ttf") format("truetype");
+    font-family: "Zen Kaku Gothic New";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+}
+
+@font-face {
+    src: url("./fonts/Zen_Kaku_Gothic_New/ZenKakuGothicNew-Bold.ttf") format("truetype");
+    font-family: "Zen Kaku Gothic New";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+}
+
+@font-face {
+    src: url("./fonts/Zen_Kaku_Gothic_New/ZenKakuGothicNew-Black.ttf") format("truetype");
+    font-family: "Zen Kaku Gothic New";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 900;
+}
+
+@font-face {
+    src: url("./fonts/Barlow/BarlowCondensed-Thin.ttf") format("truetype");
+    font-family: "Barlow Condensed";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 100;
+}
+
+@font-face {
+    src: url("./fonts/Barlow/BarlowCondensed-ExtraLight.ttf") format("truetype");
+    font-family: "Barlow Condensed";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 200;
+}
+
+@font-face {
+    src: url("./fonts/Barlow/BarlowCondensed-Light.ttf") format("truetype");
+    font-family: "Barlow Condensed";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300;
+}
+
+@font-face {
+    src: url("./fonts/Barlow/BarlowCondensed-Regular.ttf") format("truetype");
+    font-family: "Barlow Condensed";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+}
+
+@font-face {
+    src: url("./fonts/Barlow/BarlowCondensed-Medium.ttf") format("truetype");
+    font-family: "Barlow Condensed";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+}
+
+@font-face {
+    src: url("./fonts/Barlow/BarlowCondensed-SemiBold.ttf") format("truetype");
+    font-family: "Barlow Condensed";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 600;
+}
+
+@font-face {
+    src: url("./fonts/Barlow/BarlowCondensed-Bold.ttf") format("truetype");
+    font-family: "Barlow Condensed";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+}
+
+@font-face {
+    src: url("./fonts/Barlow/BarlowCondensed-ExtraBold.ttf") format("truetype");
+    font-family: "Barlow Condensed";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 800;
+}
+
+@font-face {
+    src: url("./fonts/Barlow/BarlowCondensed-Black.ttf") format("truetype");
+    font-family: "Barlow Condensed";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 900;
+}
