@@ -6,7 +6,7 @@ type Children = {
 
 export const Layout = ({ children }: Children) => {
     return (
-        <div className="container">
+        <div className="container" style={{ userSelect: "none" }}>
             <main>
                 {children}
             </main>

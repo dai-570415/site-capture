@@ -630,20 +630,28 @@ img {
         display: block;
     }
 }
+.site-capture {
+    margin: 80px auto;
+}
+@media screen and (max-width: 767px) {
+    .site-capture {
+        margin: 0 auto 40px;
+    }
+}
 .site-capture .flex-site-capture {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0 80px;
     max-width: 900px;
-    margin: 80px auto 40px;
+    margin: 0 auto 40px;
 }
 @media screen and (max-width: 767px) {
     .site-capture .flex-site-capture {
         flex-direction: column;
         gap: 40px 0;
         height: auto;
-        margin: 0 auto 20px;
+        margin: 0 auto;
     }
 }
 .site-capture .flex-site-capture .hero {
@@ -688,13 +696,13 @@ img {
 }
 .site-capture .flex-site-capture .content .form .form-group .input-form .input {
     font-weight: bold;
-    color: #333;
+    color: #fff;
     width: 100%;
-    padding: 10px 20px;
+    padding: 15px 20px;
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #fff;
+    background: #666;
     transition: 0.5s;
 }
 .site-capture .flex-site-capture .content .form .form-group .input-form .input:focus {
@@ -722,21 +730,17 @@ img {
     margin: 0 0 5px 0;
 }
 .site-capture .flex-site-capture .content .log p {
-    color: #333;
+    color: #fff;
     height: 50px;
     padding: 10px;
-    background: #fff;
+    border-radius: 4px;
+    background: #666;
     overflow-y: scroll;
 }
 .site-capture .notice {
     width: calc(100% - 80px);
     max-width: 900px;
-    margin: 0 auto 80px;
-}
-@media screen and (max-width: 767px) {
-    .site-capture .notice {
-        margin: 0 auto 40px;
-    }
+    margin: 0 auto;
 }
 .site-capture .notice h3 {
     font-weight: 500;

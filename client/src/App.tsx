@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Index } from './pages/Index';
 import './style.min.css';
+import { useEffect } from 'react';
 
 // head情報
 const title = 'Site Capture';
@@ -25,6 +26,21 @@ for (let i = 0; i < headData.length; i++) {
 }
 
 const App: React.FC = () => {
+  useEffect(() => {
+    // 🔹右クリック禁止
+    const disableContextMenu = (e: MouseEvent) => e.preventDefault();
+    document.addEventListener("contextmenu", disableContextMenu);
+
+    // 🔹ドラッグ禁止
+    const disableDrag = (e: DragEvent) => e.preventDefault();
+    document.addEventListener("dragstart", disableDrag);
+
+    return () => {
+      document.removeEventListener("contextmenu", disableContextMenu);
+      document.removeEventListener("dragstart", disableDrag);
+    };
+  }, []);
+
   return (
     <Router>
       <Routes>

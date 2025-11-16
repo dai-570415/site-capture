@@ -3,7 +3,7 @@ import MVImage from '../../img/mv.webp';
 
 export const SiteCapture = () => {
     const [url, setUrl] = useState("https://example.com");
-    const [maxPages, setMaxPages] = useState(20);
+    const [maxPages, setMaxPages] = useState(10);
     const [concurrency, setConcurrency] = useState(3);
     const [loading, setLoading] = useState(false);
     const [log, setLog] = useState<string[]>([]);
